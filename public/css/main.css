@@ -1,0 +1,347 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'PT Serif', serif;
+}
+
+.LPM{
+	position: fixed;
+	left:1%;
+	top:1%;
+	font-size: 20px;
+	font-weight: bold;
+	font-style: italic;
+	color: white;
+}
+
+.LPM:hover{
+	font-size: 26px;
+	color: white;
+}
+
+.navbar{
+	background-color: #D3AEA1;
+}
+
+
+li > a, a{
+	text-decoration: none;
+	color:white;
+	font-size: 18px;
+}
+
+li > a:hover{
+	font-weight:bold;
+}
+
+a:hover{
+	color:white;
+}
+
+.dropdown-item:hover{
+	color:#707070;
+}
+
+/* Footer */
+.footer{
+	margin-top: 5%;
+	background-color: #D3AEA1;
+	text-align: center;
+}
+
+.footer-container{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.reserve-btn:hover{
+	font-style: bold;
+}
+
+/* Home Page / Page d'Acceuil */
+
+/* Display for all H1's */
+.page-header{
+	text-align: center;
+	margin-top: 8%;
+	margin-bottom: 5%;
+	border:3px solid #D3AEA1;
+	box-shadow:10px 5px 15px #707070 ;
+	color:#707070;
+	font-style: italic;
+}
+
+.housefront{
+	border:2px solid #CBCBCB;
+	box-shadow:10px 5px 15px #707070 ;
+}
+
+/* Image with links  Display */
+.media-page-links-container{
+	margin-top: 5%;
+	background-color: #CBCBCB;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.nature-media-container{
+	margin-top: 5%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.image-links{
+	margin-top: 2%;
+}
+
+
+/* Footer hidden return to top Div */
+.hidden-div-return-top{
+	display: none;
+}
+
+/* H3 */
+h3{
+	text-align: center;
+	margin-top:5%;
+}
+
+.welcome-content{
+	text-align: center;
+}
+
+
+/* Page Chambres / Rooms Page */
+#rooms-intro{
+	margin-top: 5%;
+	text-align: center;
+}
+
+.article{
+	display: flex;
+	flex-wrap: wrap;
+	margin:2% 0 5% 0;
+}
+
+.room-all-info-container{
+	background-color: #E3CCC4;
+	border-radius:30px;
+	padding:0%;
+}
+
+.room-title{
+	color:white;
+	padding-top: 2%;
+	margin-bottom: 2%;
+}
+
+.room-content-container{
+	padding-top: 2%;
+}
+
+.room-list-content{
+	margin-top: 2%;
+	text-decoration: none;
+	list-style: none;
+	color:#707070;
+	text-align: justify;
+}
+
+.room-list{
+	padding:1% 0 1% 0;
+	text-align:center;
+}
+
+/* Page XL Chambre Terre Cuite */
+.room-all-info-container-xl{
+	background-color: #E3CCC4;
+	border-radius:30px;
+	padding:0%;
+	margin-top:0;
+}
+
+
+/* Page Table D'hote */
+
+.tabledhote-title{
+	text-align: center;
+	color:#707070;
+	font-style: italic;
+}
+
+.article-tabledhote{
+	display:flex;
+	flex-wrap:wrap;
+	border:2px solid black;
+	margin-top: 5%;
+	justify-content: space-between;
+}
+
+.meal-container{
+	border:2px solid black;
+	padding-left: 1%;
+	padding-right: 1%;
+}
+
+/* Page Stage de textiles */
+#stages-intro{
+	margin-top: 5%;
+	text-align: center;
+}
+
+.article-stages{
+	display:flex;
+	flex-wrap: wrap;
+	
+}
+
+.article-stages-textiles-container{
+	background-color: #5A291A;
+	border-radius:30px;
+	border:2px solid white;
+}
+
+.stage-title-textile{
+	color:white;
+}
+
+.stage-list{
+	color:white;
+	padding:1% 0 1% 0;
+	text-align:center;
+	list-style: none;
+}
+
+
+/* Page Stage Céramique */
+
+.atelier-home{
+	border:2px solid #CBCBCB;
+	box-shadow:10px 5px 15px #707070 ;
+	padding: 0%;
+}
+
+
+.article-stages-ceramique-container{
+	background-color: #CBCBCB;
+	border-radius: 30px;
+	border:2px solid white ;
+}
+
+.stage-title-ceramique{
+	color:#707070;
+}
+
+
+/* Page Type Histoire - Raku - Decoration sur Ceramique - Tour de poterie - Pitfiring */
+.page-header-xl{
+	text-align: center;
+	margin-top: 2%;
+	margin-bottom: 5%;
+	border:3px solid #D3AEA1;
+	box-shadow:10px 5px 15px #707070 ;
+	color:#707070;
+	font-style: italic;
+}
+
+
+.histoire-container-xl{
+	background-color: #CBCBCB;
+	border-radius:30px;
+}
+
+.histoire-title{
+	text-align: center;
+	color:#707070;
+	font-style: italic;
+}
+
+.histoire-details{
+	text-align: center;
+}
+
+ul.method-list{
+	text-align:center;
+	padding:0;
+}
+
+li.method{
+	list-style:upper-roman;
+	padding:0;
+}
+
+.btn-previous-container{
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	right:0;
+}
+
+@media only screen and (max-width: 980px) {
+	.btn-previous-container {
+		display:none;
+	}
+  }
+
+  @media only screen and (max-width: 460px) {
+	.hidden-div-return-top {
+		display:block;
+	}
+  }
+
+/* Page Region */
+.region-info-container{
+	background-color: #80A641;
+	border-radius:30px;
+}
+
+#region-intro{
+	text-align: center;
+}
+
+.intro-region{
+	color:white;
+	text-align: center;
+	padding-top: 2%;
+  }
+
+  .article-region{
+	  display:flex;
+	  flex-wrap:wrap;
+  }
+
+  .region-title{
+	color:white;
+	padding-top: 2%;
+	margin-bottom: 2%;
+  }
+
+  .activity-list-content{
+	text-decoration: none;
+	list-style: none;
+	color:white;
+	text-align: center;
+  }
+
+  #header-activity{
+	  text-align: center;
+	  color:#CBCBCB;
+	  margin-top: 2%;
+	  font-size: 22px;
+  }
+
+  .activity-list{
+	padding:6% 0 0 0;
+	text-align:center;
+	color:white;
+  }
+
+  .activity-list{
+	padding:4% 0 0 0;
+	text-align:center;
+	color:white;
+  }
